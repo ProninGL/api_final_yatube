@@ -16,8 +16,8 @@
 
 [![Python](https://img.shields.io/badge/-Python_3.7.12-464646??style=flat-square&logo=Python)](https://www.python.org/downloads/)
 [![Django](https://img.shields.io/badge/-Django-464646??style=flat-square&logo=Django)](https://www.djangoproject.com/)
-[![Django](https://img.shields.io/badge/-Django_rest_framework_3.12.4-464646??style=flat-square&logo=Django)] (https://www.django-rest-framework.org)
-[![Django](https://img.shields.io/badge/-djoser_2.1.0-464646??style=flat-square&logo=Django)] (https://djoser.readthedocs.io/en/latest/getting_started.html#installation)
+[![Django](https://img.shields.io/badge/-Django_rest_framework_3.12.4-464646??style=flat-square&logo=Django)](https://www.django-rest-framework.org)
+[![Django](https://img.shields.io/badge/-djoser_2.1.0-464646??style=flat-square&logo=Django)](https://djoser.readthedocs.io/en/latest/getting_started.html#installation)
 
 
 ## Установка:
