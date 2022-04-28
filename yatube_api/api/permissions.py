@@ -1,13 +1,14 @@
-from rest_framework import permissions, status
+from rest_framework import permissions
 
 
 class IsAuthorOrReadOnly(permissions.BasePermission):
-
-    message = "У вас нет прав вносить изменения."
-    code = status.HTTP_403_FORBIDDEN
-
-    def has_object_permission(self, request, view, obj):
+    def has_permission(self, request, view):
         return (
             request.method in permissions.SAFE_METHODS
-            or obj.author == request.user
+            or request.user.is_authenticated
         )
+
+    def has_object_permission(self, request, view, obj):
+        if request.method not in permissions.SAFE_METHODS:
+            return obj.author == request.user
+        return True
